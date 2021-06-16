@@ -4,6 +4,6 @@ set -e
 
 for i in $(seq 1 100); do echo "POI!"; done
 
-poi
+cp $PWD/.trustinsoft/poi.json $PWD/.trustinsoft/config.json
 
 echo "Poiing successful"
